@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import myImage from "../assets/myImage.jpg"
 
 const Hero = () => {
   return (
@@ -16,6 +17,7 @@ const Hero = () => {
           <a href="#contact" className="button button-outline">Contact Me</a>
         </div>
       </div>
+      <img src={myImage} alt="This is my picture" className='profile-img' />
     </section>
   );
 };
