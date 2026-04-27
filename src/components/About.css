@@ -1,0 +1,21 @@
+.about {
+  max-width: 800px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: left; /* Counteracts the central text alignment of root */
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+}
+
+.about-text strong {
+  color: var(--accent);
+  font-weight: 500;
+}

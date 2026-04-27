@@ -1,0 +1,83 @@
+.projects {
+  max-width: 1000px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 30px 25px;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent-border);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.project-content {
+  text-align: left;
+}
+
+.project-title {
+  margin: 0 0 15px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  margin-bottom: 25px;
+}
+
+.project-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.project-tech-list li {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--accent);
+  background: var(--accent-bg);
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.project-actions {
+  display: flex;
+}
+
+.project-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Add support for dark mode hover effects via inheritance */
+@media (prefers-color-scheme: dark) {
+  .project-card:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  }
+}
