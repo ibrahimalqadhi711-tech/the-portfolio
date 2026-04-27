@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="social-links">
           
-          <a href="https://github.com/ibrahimalqadhi711@gmail.com" target="_blank"
+          <a href="https://github.com/ibrahimalqadhi711-tech" target="_blank"
           rel="noopener noreferrer"
 >
           <FaGithub />
