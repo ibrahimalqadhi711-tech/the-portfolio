@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Hello! My name is Ibrahim and I enjoy creating engaging things that live on the internet. As a frontend developer, I am deeply passionate about bridging the gap between elegant design and seamless functionality.
+            Hello! My name is Ibrahim Alqadhi and I enjoy creating engaging things that live on the internet. As a frontend developer, I am deeply passionate about bridging the gap between elegant design and seamless functionality.
           </p>
           <p>
             With a strong foundation in modern web development, I specialize in building responsive, accessible, and user-centric applications. Working extensively with technologies like <strong>JavaScript (ES6+)</strong> and <strong>React</strong> allows me to engineer component-driven architectures that are both scalable and easy to maintain.
